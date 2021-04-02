@@ -92,7 +92,7 @@ def send():
         engine.runAndWait()
         port = 587  # For starttls
         smtp_server = "smtp.gmail.com"
-        sender_email = "aaryanpythondeveloper@gmail.com"
+        sender_email = ""# enter your gmail address
         engine.say('Enter receivers email')
         engine.runAndWait()
         receiver_email = simpledialog.askstring("Input", "Enter receivers email",parent=root)
